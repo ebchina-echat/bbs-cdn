@@ -64,7 +64,7 @@ https://cdn.jsdelivr.net/gh/ebchina-echat/bbs-cdn@1.2.0/dist/js/app.7950609e.js
 
 - 推到 dev 分支即可，剩下的交给 CI 去解决
 
-## 生成对应 ssh 密钥，免去登录
+## 生成对应ssh密钥
 
 ### 安装 Git
 
