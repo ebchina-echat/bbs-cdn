@@ -24,25 +24,9 @@
 
 二、在项目根目录下，运行打包命令
 
--先检查 `vue.config.js` 有没有如下代码，没有就加上
-```js
-// vue.config.js
-const fs = require("fs");
-const json = JSON.parse(fs.readFileSync("package.json", "utf8"));
-const version = json.version;
-module.exports = {
-  // 重点关注这个字段
-  publicPath: process.env.NODE_ENV === 'production' ? publicPath = `https://cdn.jsdelivr.net/gh/ebchina-echat/bbs-cdn@${version}/dist/` : '/forum',
-  productionSourceMap: false,
-   // ··· 省略部分代码，这行也别复制哈，😳
-}
-```
-如果检查没有问题，运行下方命令打包
 `$ npm run build`
 
 三、清空本仓库 dist 所有目录，将打包生成的 dist 目录直接复制过来就可以
-
-
 
 `$ git add .`
 
