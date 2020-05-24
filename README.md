@@ -34,7 +34,7 @@
 
 > 此处可能需登录账号，如果拉代码用 ` git clone git@github.com:ebchina-echat/bbs-cdn.git ` 可以免去，前提是先配置 ssh 密钥，详见 **[下文](#生成对应ssh密钥)**
 
-`$ git push -u git push -u origin master `
+`$ git push -u origin master `
 
 ## 检查是否生效
 从 dist 目录中随便复制一个静态文件链接，检查一下，比如：
